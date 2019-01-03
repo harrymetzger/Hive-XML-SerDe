@@ -5,7 +5,7 @@
 	<version>1.0.5.3</version>
 	<packaging>jar</packaging>
 	<name>hive-xml-serde</name>
-	<url>https://github.com/dvasilen/Hive-XML-SerDe</url>
+	<url>https://github.com/harrymetzger/Hive-XML-SerDe</url>
 	<description>XML SerDe for Apache Hive</description>
 	<licenses>
 		<license>
@@ -16,16 +16,16 @@
 	</licenses>
 	<developers>
 		<developer>
-			<id>dvasilen</id>
-			<name>Dmitry Vasilenko</name>
-			<email>dvasilen@gmail.com</email>
+			<id>harrymetzger</id>
+			<name>Harry Metzger</name>
+			<email>harrym@cybcube.com</email>
 		</developer>
 	</developers>
 	<scm>
 		<!-- Replace the connection below with your project connection -->
-		<connection>scm:git:git@github.com:dvasilen/Hive-XML-SerDe.git</connection>
-		<developerConnection>scm:git:git@github.com:dvasilen/Hive-XML-SerDe.git</developerConnection>
-		<url>scm:git:git@github.com:dvasilen/Hive-XML-SerDe.git</url>
+		<connection>scm:git:git@github.com:harrymetzger/Hive-XML-SerDe.git</connection>
+		<developerConnection>scm:git:git@github.com:harrymetzger/Hive-XML-SerDe.git</developerConnection>
+		<url>scm:git:git@github.com:harrymetzger/Hive-XML-SerDe.git</url>
 		<tag>HEAD</tag>
 	</scm>
     <properties>
@@ -123,24 +123,24 @@
 		<dependency>
 			<groupId>org.apache.hive</groupId>
 			<artifactId>hive-serde</artifactId>
-			<version>1.2.0</version>
+			<version>2.3.4</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.hive</groupId>
 			<artifactId>hive-exec</artifactId>
-			<version>1.2.0</version>
+			<version>2.3.4</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-mapreduce-client-core</artifactId>
-			<version>2.6.0</version>
+			<version>2.8.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-common</artifactId>
-			<version>2.6.0</version>
+			<version>2.8.5</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>

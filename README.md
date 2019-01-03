@@ -1,4 +1,9 @@
-Hive-XML-SerDe
+Harry's Hive-XML-SerDe
+==============
+
+Updated for use with Hive 2.3.0+ following the suggestions at https://github.com/dvasilen/Hive-XML-SerDe/issues/46
+
+Original README
 ==============
 
 XML Serializer/Deserializer for Apache Hive
