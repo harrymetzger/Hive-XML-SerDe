@@ -1,4 +1,4 @@
-Harry's Hive-XML-SerDe
+Harry's Update
 ==============
 
 Updated for use with Hive 2.3.0+ following the suggestions at https://github.com/dvasilen/Hive-XML-SerDe/issues/46
